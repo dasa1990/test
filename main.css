@@ -1,0 +1,61 @@
+#main-container{
+	background-image: url("images/postal_background.jpg");
+	background-repeat: no-repeat;
+	width: 1300px;
+	height: 900px
+}
+
+textarea{
+	position: relative;
+	top: 300px;
+	left: 160px;
+	font-size: 2em;
+	resize: none;
+	text-align: left;
+	border: none;
+	background-color: transparent;
+}
+
+[name~="to"]{
+	position: relative;
+	top: 180px;
+	left: 440px;
+}
+
+[name~="from"]{
+	position: relative;
+	top: 265px;
+	left: 30px;
+}
+
+[name~="address"]{
+	position: relative;
+	top: 310px;
+	left: 744px;
+}
+
+.editable{
+	font-size: 2em;
+	width: 400px;
+	font-size: 2em;
+	text-align: center;
+	border: none;
+	background-color: transparent;
+}
+
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #909;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #909;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #909;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #909;
+}
