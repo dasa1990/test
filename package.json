@@ -1,0 +1,21 @@
+{
+  "name": "laureate-test",
+  "version": "0.0.1",
+  "description": "A test",
+  "engines": {
+    "node": "6.9.5"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bower": "^1.8.0",
+    "express": "^4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dasa1990/test.git"
+  },
+  "license": "MIT"
+}
